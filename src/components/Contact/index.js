@@ -123,7 +123,7 @@ const ContactButton = styled.input`
 const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
-  const [loading, setLoading] = React.useState(false);
+  const [setLoading] = React.useState(false);
 
   const form = useRef();
 
