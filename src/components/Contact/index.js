@@ -137,6 +137,7 @@ const Contact = () => {
         form.current,
         "B94pWAov2oq1_msq_"
       );
+      console.log("EmailJS response:", response);
 
       setLoading(false);
       setOpen(true);
